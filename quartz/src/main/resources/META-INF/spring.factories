@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.yhr.quartz.configuration.QuartzConfiguration,com.yhr.quartz.configuration.MyQuartzScheduler
+

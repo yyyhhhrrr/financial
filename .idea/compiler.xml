@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.yhr.api.main" target="1.8" />
+      <module name="com.yhr.api.test" target="1.8" />
+      <module name="com.yhr.entity.main" target="1.8" />
+      <module name="com.yhr.entity.test" target="1.8" />
+      <module name="com.yhr.financial.main" target="1.8" />
+      <module name="com.yhr.financial.test" target="1.8" />
+      <module name="com.yhr.manager.main" target="1.8" />
+      <module name="com.yhr.manager.test" target="1.8" />
+      <module name="com.yhr.quartz.main" target="1.8" />
+      <module name="com.yhr.quartz.test" target="1.8" />
+      <module name="com.yhr.saller.main" target="1.8" />
+      <module name="com.yhr.saller.test" target="1.8" />
+      <module name="com.yhr.swagger.main" target="1.8" />
+      <module name="com.yhr.swagger.test" target="1.8" />
+      <module name="com.yhr.util.main" target="1.8" />
+      <module name="com.yhr.util.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

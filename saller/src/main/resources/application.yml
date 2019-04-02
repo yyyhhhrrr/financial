@@ -1,0 +1,30 @@
+server:
+  servlet:
+     context-path: /saller
+  port: 8082
+
+rpc:
+   client:
+     url: http://localhost:8081/manager   #改jsonrpc源码之前 必须最后要加斜杠
+     basePackage: com.yhr.api # 接口所在包路径
+spring:
+  cache:
+    type: hazelcast
+  activemq:
+    broker-url: tcp://120.78.169.172:61616
+    packages:
+      trust-all: true
+  jms:
+    pub-sub-domain: true
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  datasource:
+    primary:
+      url: jdbc:mysql://127.0.0.1:3306/saller?user=root&password=960314&useUnicode=true&characterEncoding=utf-8
+    backup:
+      url: jdbc:mysql://127.0.0.1:3306/saller_backup?user=root&password=960314&useUnicode=true&characterEncoding=utf-8
+
+
+  jpa:
+    show-sql: true

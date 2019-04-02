@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.yhr.swagger.SwaggerConfiguration
+#有这个文件就不用再在manager 的 ManagerApp上加@EnableMySwagger 注解了
+#因为当我们把swagger模块导入到manager时，它会自动扫描swagger模块的spring.factories文件
+#所以就找到了SwaggerConfiguration配置类 就不用我们再加@EnableMySwagger 去导包了

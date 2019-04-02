@@ -1,0 +1,7 @@
+dependencies{
+    compile project(":entity")
+    compile libs.mysql
+    compile project(":swagger")
+    compile project(":api")
+    compile libs.activemq
+}
